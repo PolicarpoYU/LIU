@@ -1,4 +1,4 @@
-DBLUI_ig = {
+DBLIU_ig = {
  "⁉️": [
 # Verb tenses => if missing at the end
 ["^","(future)"],
@@ -5653,3 +5653,22 @@ DBLUI_ig = {
 ["*🎸","gitarra","@Google"],
 ],
 }
+
+
+from liu import save_db,resumo_LIU
+from liu import cria_DB_TXT,maiusc_LIU
+
+def save_DB_lang(DBLIU,lang,DIR_DB):
+   FILE_NAME_LUI= DIR_DB+"LIUv1-"+lang+".json"
+   FILE_NAME_TXT= DIR_DB+"TXT_LIUv1-"+lang+".json"
+   save_db(FILE_NAME_LUI, DBLIU, Forca_grava=True)
+   print(f"DB Saved:{FILE_NAME_LUI}")
+   TXT_maiusc = maiusc_LIU(DBLIU)
+   DB_TXT= cria_DB_TXT(TXT_maiusc,DBLIU, FILE_NAME_TXT, reinicia=True)
+   print(f"DB Saved:{FILE_NAME_TXT}")
+   return DB_TXT
+   
+print("\SUMMARY DBLIU_ig => ENGLISH:")
+resumo_LIU(DBLIU_ig)
+print("\nRecording DBLIU_ig => ENGLISH:")
+save_DB_lang(DBLIU_ig,lang="ig",DIR_DB = "./DB/")

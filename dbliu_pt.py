@@ -1,4 +1,4 @@
-DBLUI_pt = {
+DBLIU_pt = {
 "⁉️": [
     # Tempos verbais => se faltar no final
     ["^","(no futuro)"],
@@ -483,7 +483,7 @@ DBLUI_pt = {
     ["🙂🙂a","amiga","@Poli"],
     ["(🙂","galera","@Poli"],
     ["[🙂","turma","@Poli"],
-    ["❤️🙂","casal","@Poli"],
+    ["❤️🙂","casal (namorados)","[mamor mais eu = casal] @Poli"],
     ["❤️🙂o","namorado","@Poli"],
     ["❤️🙂a","namorada","@Poli"],
     ["(❤️🙂","família ","@Poli"],
@@ -879,14 +879,15 @@ DBLUI_pt = {
     ["$%🧍‍♂️","remuneração","@Poli"],
     ["#$%🧍‍♂️","remunerado","@Poli"],
     ["🧍‍♂️|🏠","construtor"," @Poli"],
+    ["🧍‍♂️🏠","corretor [de imóveis]"," @Poli"],
     ["🧍‍♂️🏠📕","diretor da escola","@Poli"],
-    ["🧍‍♂️%🏠","diretor de empresa","{ gen_fem} @Poli"],
+    ["🧍‍♂️🏠%","diretor de empresa","{ gen_fem} @Poli"],
     ["🧍‍♂️%⚙️🏠","diretor industrial","{ gen_fem} @Poli"],
     ["🧍‍♂️⚙️🏠","chefe de oficina","{ gen_fem} @Poli"],
-    ["🧍‍♂️$🏠","gerente de banco"," @Poli"],
-    ["🧍‍♂️(🏠","prefeito","{ gen_fem} @Poli"],
-    ["🧍‍♂️[🏠","governador"," @Poli"],
-    ["🧍‍♂️{🏠","presidente"," @Poli"],
+    ["🧍‍♂️🏠$","gerente de banco"," @Poli"],
+    ["🧍‍♂️(🏠","vereador"," @Poli"],
+    ["🧍‍♂️[🏠","prefeito","{ gen_fem} @Poli"],
+    ["🧍‍♂️{🏠","governador"," @Poli"],
     ["🧍‍♂️v⏱️","velho","[pessoa ligada ao passado]@Poli"],
     ["🧍‍♂️^⏱️","rapaz","[pessoa ligada ao futuro]@Poli"],
     ["🧍‍♂️=⏱️","momem maduro","@Poli"],
@@ -1366,8 +1367,8 @@ DBLUI_pt = {
     ["~#⏱️🙂:","mortos","@Poli"],
     ["#⏱️🙂a:","vivas","@Poli"],
     ["~#⏱️🙂a:","mortas","@Poli"],
-    ["🏠⏱️","casa alugada","@Poli"],
-    ["$🏠⏱️","aluguel","@Poli"],
+    ["*🏠⏱️","casa alugada","@Poli"],
+    ["$*🏠⏱️","aluguel por temporada","@Poli"],
     ["📕⏱️","livro emprestado","@Poli"],
     # COM MENTE
     ["🧑🏻‍🦱v⏱️","memória","@Poli"],
@@ -1559,21 +1560,27 @@ DBLUI_pt = {
     ["!🖊️*📕!","imprimir","@Poli"],
     ],
 # CASA LUGAR CONTRUÇÕES
-"🏠":[# MORADIA / CASA
-        ["🏠","moradia"," @Poli"],
-        ["(🏠","cidade","{ gen_fem} @Poli"],
-        ["[🏠","estado"," @Poli"],
-        ["{🏠","pais"," @Poli"],
+"🏠":[# EDIFICAÇÃO
+        ["🏠","edificação"],
+        ["(🏠","bairro","@Poli"],
+        ["[🏠","cidade","@Poli"],
+        ["{🏠","estado"," @Poli"],
+        ["]*🏠","tijolo"," @Poli"],
+        [")*🏠","barro"," @Poli"],
+        ["}*🏠","residencial"," @Poli"],
         ["🏠📕","escola","@Poli"],
         ["^🏠📕","universidade","@Poli"],
         ["v🏠📕","creche","@Poli"],
         ["=🏠📕","colégio","@Poli"],
         ["🏠[📕","biblioteca ","@Poli"],
-        ["@🏠📕","editora","@Poli"],
-        ["%🏠","empresa","{ gen_fem} @Poli"],
-        ["$🏠","banco"," @Poli"],
-        [">$🏠","shoping center"," @Poli"],
-        ["@🏠","cartorio","{ gen_fem} @Poli"],
+        ["🏠@📕","editora","@Poli"],
+        ["🏠%","empresa","{ gen_fem} @Poli"],
+        ["%*🏠","trabalo domêstico","@Poli"],
+        ["🏠$","banco"," @Poli"],
+        ["$*🏠","alugel"," @Poli"],
+        [">🏠$","shoping center"," @Poli"],
+        ["@🏠","endereço","@Poli"],
+        ["🏠%@","cartorio","{ gen_fem} @Poli"],
         ["^🏠","predio","{ gen_fem} @Poli"],
         ["v🏠","subsolo","{ gen_fem} @Poli"],
         ["*🏠","casa","{ gen_fem} @Poli"],
@@ -1595,7 +1602,14 @@ DBLUI_pt = {
         ["!/🏠!","despejar"," @Poli"],
         ["!|*🏠!","alicerçar"," @Poli"],
         ["!/*🏠!","demolir"," @Poli"],
-    ],    
+        ["*🏠🙂","lar"," @Poli"],
+        ["🏠🙂","morada (moradia)"," @Poli"],
+        ["!🏠🙂!","morar"," @Poli"],
+        ["🧍‍♂️*🏠","morador"," @Poli"],
+        ["#🧍‍♂️*🏠","residente"," @Poli"],
+        ["🧍‍♂️%*🏠","empregado domestico"," @Poli"],
+        ["🧍‍♂️%*🏠a","empregada domestica"," @Poli"],
+],
 "🏝️":[# LUGAR / ILHA
     ["🏝️","lugar","@Poli"],
     ["*🏝️","ilha","@Poli"],
@@ -1650,8 +1664,6 @@ DBLUI_pt = {
     ["!/🧍‍♂️🏝️!","chegar","@Poli"],
     ["!%🧍‍♂️🏝️!","viajar","@Poli"],
     ["🏠🧍‍♂️🏝️","destino","@Poli"],
-    ["🧍‍♂️🏠🏝️","morador","@Poli"],
-    ["#🧍‍♂️🏠🏝️","residente","@Poli"],
     ["🧍‍♂️🧍‍♂️🏝️","guia turistíco","@Poli"],
     ["$🏝️","valor [do terreno]","@Poli"],
     ["@🏝️","topônimo","@Poli"],
@@ -2919,7 +2931,10 @@ DBLUI_pt = {
     ["🧵🐕","guia para cachorro","@Poli"],
     ["⛓️*🐕","coleira","@Poli"], 
     ["😷*🐕","focinheira","@Poli"],
-    ["🧍‍♂️*🐕","adestrador","@Poli"],
+    ["🧍‍♂️*🐕","adestrador [de çães]","@Poli"],
+    ["!🧍‍♂️*🐕!","adestrar","@Poli"],
+    ["#🧍‍♂️*🐕","adestrado","@Poli"],
+    ["*!🧍‍♂️*🐕","adestramento","@Poli"],
     ["*🐕🏠","casa de cachorro","@Poli"],
     ["*🐕🐥","cachorrinho","@Poli"],
 ],
@@ -3755,12 +3770,16 @@ DBLUI_pt = {
     ["#🧍‍♂️🌲","agrícola","@Poli"],
     ["🤚🌲","colheita","@Poli"],
     ["!🤚🌲!","colher","@Poli"],
-    ["🏠🌲","jardim","@Poli"],
+    ["🏠*🌲","casa de madeira","@Poli"],
+    ["🏠👶*🌲","casa na arvore","@Poli"],
+    ["🌲🏠","jardim","@Poli"],
+    ["🧍‍♂️🌲🏠","jardineiro","@Poli"],
+    ["*🧍‍♂️🌲🏠","jardinagem","@Poli"],
     ["🏠☀️🌲","estufa","@Poli"],
     ["🏠(🌲","parque","@Poli"],
     ["🌲⏱️","crescimento","@Poli"],
-    ["🧑🏻‍🦱🌲","natureza","@Poli"],
-    ["#🧑🏻‍🦱🌲","natural","@Poli"],
+    ["🧑🏻‍🦱🌲","[estado de] coma","@Poli"],
+    ["#🧑🏻‍🦱🌲","comatoso","@Poli"],
     ["@🌲","espécie","[espécie vegetal] @Poli"],
     ["$🌲","valor [da safra]","@Poli"],
     ["$*🌲","[madeira de] primeira classe","@Poli"],
@@ -3911,7 +3930,7 @@ DBLUI_pt = {
     ["#🍽️","comestível","@Poli"],
     ["!🍽️!","alimentar","@Poli"],
     ["🏠🍽️","cozinha","@Poli"],
-    ["$🏠🍽️","restaurante","@Poli"],
+    ["🏠$🍽️","restaurante","@Poli"],
     ["$v🏠🍽️","lanchonete","@Poli"],
     ["🏠🍽️🚗","drive-thru","@Poli"], 
     ["%🍽️","alimentação","@Poli"],
@@ -4263,7 +4282,7 @@ DBLUI_pt = {
     ["⚖️🏳️‍🌈","justiça nacional","@Poli"],
     ["⚔️🏳️‍🌈","ato de guerra","@Poli"],
     ["🏝️🏳️‍🌈","território","@Poli"],
-    ["(🏠🏳️‍🌈","capital","@Poli"],
+    ["[🏠🏳️‍🌈","capital","@Poli"],
     ["🌐🏳️‍🌈","mapa do país","@Poli"],
     ["🧑🏻‍🦱🏳️‍🌈","cultura nacional","@Poli"],
     ["🎵🏳️‍🌈","hino nacional","@Poli"],
@@ -5656,3 +5675,22 @@ DBLUI_pt = {
     ["*🎸","gitarra","@Poli"],
 ],
 }
+
+
+from liu import save_db,resumo_LIU
+from liu import cria_DB_TXT,maiusc_LIU
+
+def save_DB_lang(DBLIU,lang,DIR_DB):
+   FILE_NAME_LUI= DIR_DB+"LIUv1-"+lang+".json"
+   FILE_NAME_TXT= DIR_DB+"TXT_LIUv1-"+lang+".json"
+   save_db(FILE_NAME_LUI, DBLIU, Forca_grava=True)
+   print(f"DB Saved:{FILE_NAME_LUI}")
+   TXT_maiusc = maiusc_LIU(DBLIU)
+   DB_TXT= cria_DB_TXT(TXT_maiusc,DBLIU, FILE_NAME_TXT, reinicia=True)
+   print(f"DB Saved:{FILE_NAME_TXT}")
+   return DB_TXT
+
+print("\RESUMO DBLIU_pt => PORTUGUÊS:")    
+resumo_LIU(DBLIU_pt)  
+print("\nGravando DBLIU_pt => PORTUGUÊS:") 
+save_DB_lang(DBLIU_pt,lang="pt",DIR_DB = "./DB/")
