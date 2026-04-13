@@ -399,22 +399,7 @@ Another examples:
 
 ### Example in English
 
-In English, the same logic applies, but repeated forms do not need unnecessary keys.
-
-Example:
-
-`["!🙂","is (am) (are)","(1ps) (2ps) (1pp) (2pp) (3pp) @Poli"],`
-
-This means:
-
-- `is` → default form
-- `(am)` → first person singular → `(1ps)`
-- `(are)` → second person singular → `(2ps)`
-- `(are)` → first person plural → `(1pp)`
-- `(are)` → second person plural → `(2pp)`
-- `(are)` → third person plural → `(3pp)`
-
-English usually uses fewer conjugation forms than Portuguese.
+In English, the same logic applies, but usually uses fewer conjugation forms than Portuguese.
 
 For that reason, only the forms that are really needed should be included.
 
@@ -428,6 +413,7 @@ This means:
 - `(are)` → plural form → `(num_plu)`
 
 So, if a language does not use a certain distinction, that key should simply be omitted.
+
 ---
 
 ## 💻 Technical Support
