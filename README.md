@@ -104,38 +104,366 @@ LIU uses operators for:
 - time (`|`, `/`)
 - grouping (`(`, `[`, `{`)
 
+### 5.1. Hierarchy
+
+- `^` → above
+- `v` → below
+- `=` → same level
+
+Examples:
+
+- `^🙂` → father
+- `=🙂` → you
+- `v🙂` → son
+
+### 5.2. Comparison
+
+- `<` → smaller
+- `>` → larger
+
+Examples:
+
+- `<*🌲` → bonsai
+- `>*🌲` → sequoia
+
+### 5.3. Time
+
+- `|` → beginning
+- `/` → end
+
+Examples:
+
+- `|🙂` → birth
+- `/🙂` → death
+
+### 5.4. Composition and scope
+
+- `]` → what something is made of
+- `)` → more fundamental component or content
+- `}` → broader concept
+
+Examples:
+
+- `]*🌲` → wood
+- `)*🌲` → cellulose
+- `}🌲` → vegetation
+- `]*🏠` → brick
+- `)*🏠` → mud
+- `}*🏠` → residential
+
+### 5.5. Grouping
+
+- `(` → small group
+- `[` → larger group
+- `{` → supergroup
+
+Examples:
+
+- `(*🌲` → grove
+- `[*🌲` → forest
+- `(🏠` → neighborhood
+- `[🏠` → city
+- `{🏠` → state
+- `☀️` → day
+- `(☀️` → week
+- `[☀️` → month
+- `{☀️` → year
+
+## 6. LIU Endings
+
+LIU also uses endings to mark gender, number, verb tense, and possession.
+
+### Gender and number
+
+- `x` → neutral
+- `a` → feminine
+- `o` → masculine
+- `:` → plural
+
+Examples:
+
+- `🙂x` → neutral person
+- `🙂a` → woman
+- `🙂o` → man
+- `🙂:` → people
+
+## 7. Possession
+
+Possession is indicated with `&`:
+
+- `&🙂` → my / mine
+- `&🙂:` → my / mine (plural)
+- `&=🙂` → your / yours
+- `&=🙂x` → your / yours
+- `&=🙂a` → hers
+- `&=🙂o` → his
+
+## 8. Grammatical links and interrogatives
+
+LIU has short and regular links to build sentences.
+
+Examples:
+
+- `_1` → one
+- `_x` → of
+- `_>x` → in
+- `_🙂o` → this
+- `_&o` → of this
+- `_>🙂o` → that
+- `_🏠` → here
+- `_>🏠` → there
+- `_)` → with
+- `_>` → for
+- `_🙂?` → who
+- `_🏠?` → where
+- `_⏱️?` → when
+- `_@?` → which
+- `_$?` → how much
+
+## 9. Use of aliases
+
+LIU allows **aliases** between common emojis, which are not part of the list of basic emojis,
+and combinations formed by two or more basic emojis.
+
+This makes it possible to use emojis that already exist on the keyboard or mobile phone
+without needing to create a new word in every language. Instead, the system treats certain
+common emojis as equivalent to compositions already defined in LIU.
+
+Examples of compositions with basic emojis:
+
+- `👕🦶🏻` → shoe
+- `👕🦶🏻a` → women’s shoe
+- `🙂👕🦶🏻` → sneaker
+- `%👕🦶🏻` → boot
+- `*🌲` → tree
+- `*🌲~🍀` → cactus
+
+Examples of aliases:
+
+- `👞 ↔ 👕🦶🏻`
+- `👠 ↔ 👕🦶🏻a`
+- `👟 ↔ 🙂👕🦶🏻`
+- `🥾 ↔ %👕🦶🏻`
+- `🌳 ↔ *🌲`
+- `🌵 ↔ *🌲~🍀`
+
+In the case of an alias such as `🌳 ↔ *🌲`, there is a direct one-to-one correspondence.
+This is important because many emojis have very similar drawings. By defining aliases
+of this kind, LIU starts treating these variations as equivalent within the system.
+
+Since aliases relate **emoji to emoji**, this definition applies equally to
+all languages. Thus, it is defined only once and can be reused throughout LIU.
+
+In this way, the language remains organized around a reduced set of basic emojis,
+without losing the practical flexibility of also using the many other existing emojis.
+
+## 10. General remarks
+
+The LIU database is still in a phase of creation and expansion.
+At present, the most developed languages in the system are **Portuguese** and **English**,
+while the others are being gradually prepared.
+
+## 11. Objective and importance of LIU
+
+Because it is a pictographic language, based on symbols and not on words from a single language,
+LIU can be read by users of different languages in their own local translation.
+
+For example:
+
+- `🙂 !❤️ =🙂`
+
+it can be read as:
+
+- **Eu amo você** → for Portuguese speakers
+- **I love you** → for English speakers
+- **Ich liebe dich** → for German speakers
+
+Thus, LIU has the potential to facilitate communication between people of different languages.
+
+In addition, LIU can be useful in:
+
+- initial adult literacy
+- children's learning
+- intuitive teaching of verb, adjective, and noun
+- multilingual signage
+- playful use by children and young people
+- philosophical reflection on the meaning of words
+
+For example:
+
+- `🙂` → I
+- `❤️` → love
+- `=🙂` → you
+- `❤️🙂a` → girlfriend
+- `>❤️🙂a` → wife
+- `(❤️🙂a` → family
+
+In these cases, besides generating the desired word, LIU also makes explicit
+a structure of meaning.
+
+This kind of development would hardly be carried out by a single person without computational support.
+Artificial intelligence made it possible to take this concept from paper and implement it in practice.
+
+Anyone who wishes to help in the development of LIU, through technical collaboration,
+criticism, suggestions, or revision, may contact Dr. Ulianov.
+
+Donations are also welcome. At present, this work is being carried out for the benefit of humanity,
+without sponsorship or financial support, and efforts are made to avoid invasive advertising on the site.
+
 ---
 
-## ✨ Examples
+## 🗂️ How to Improve the LIU Language Databases
 
-["❤️🙂","couple (sweethearts)","[love + me = couple] @Poli"]
+Anyone who wants to help can improve the LIU language databases.
 
-Structure:
+Currently, the website www.liu777.org uses the Python program liu.py to load its databases, which currently contain emoji and text data in JSON format, such as:
+- `LIUv1-pt.json`
+- `TXT_LIUv1-pt.json`
+- `LIUv1-ig.json`
+- `TXT_LIUv1-ig.json`
 
-- LIU symbol : "❤️🙂"
-- word + (synonyms) : "couple (sweethearts)"
-- [explanation] + author: "[love + me = couple] @Poli"
+These are databases in Portuguese and English created from Python programs:
+-`dbliu_pt.py` → LIU database in Portuguese
+-`dbliu_ig.py` → LIU database in English
 
+For other languages, this repository contains only the basic LUI framework for each language:
+- `dbliu_fr.py` → LIU database in French
+- `dbliu_ru.py` → LIU database in Russian
+- `dbliu_es.py` → LIU database in Spanish
+- `dbliu_it.py` → LIU database in Italian
+- `dbliu_jp.py` → LIU database in Japanese
+- `dbliu_ch.py` → LIU database in Chinese
+- `dbliu_ge.py` → LIU database in German
+
+Each language file contains entries with 3 columns, for example:
+
+`["❤️🙂","couple (sweethearts)","[love + me = couple] @Poli"],`
+
+Where:
+
+- `"❤️🙂"` → LIU symbol
+- `"couple (sweethearts)"` → main word with possible synonyms
+- `"[love + me = couple] @Poli"` → explanation of the symbol and authorship
+
+### Notes for contributors
+- New words should be placed close to emojis from the same semantic group
+- Anyone who creates new words may include authorship, for example: `@Author_name`
+- Entries marked with `@Google` or `@GPT5` can be revised and improved
+- Future language files should keep the same standard naming pattern for consistency
+
+### Grammatical keys in the third column
+
+Some entries use grammatical keys in the third column to indicate which form
+of the word should be used in each grammatical case.
+
+The rule is:
+
+- each expression between `()` in the **second column**
+- corresponds to one grammatical key in the **third column**
+- in the same order
+
+Example in Portuguese:
+
+`["!🙂","é (são) (sou) (és) (é) (somos) (sois) (são)","(num_plu) (1ps) (2ps) (3ps) (1pp) (2pp) (3pp) @Poli"],`
+
+This means:
+
+- `é` → default form
+- `(são)` → plural form → `(num_plu)`
+- `(sou)` → first person singular → `(1ps)`
+- `(és)` → second person singular → `(2ps)`
+- `(é)` → third person singular → `(3ps)`
+- `(somos)` → first person plural → `(1pp)`
+- `(sois)` → second person plural → `(2pp)`
+- `(são)` → third person plural → `(3pp)`
+
+Another examples:
+
+`["!🙂:","são (somos) (sois) (são)","(1pp) (2pp) (3pp) @Poli"],`
+
+`["!🙂v","foi (fui) (foste) (foi) (fomos) (fostes) (foram)","(1ps) (2ps) (3ps) (1pp) (2pp) (3pp) @Poli"],`
+
+`["!🙂^","será (serei) (serás) (será) (seremos) (sereis) (serão)","(1ps) (2ps) (3ps) (1pp) (2pp) (3pp) @Poli"],`
+
+### Meaning of the grammatical keys
+
+- `(1ps)` → first person singular
+- `(2ps)` → second person singular
+- `(3ps)` → third person singular
+- `(1pp)` → first person plural
+- `(2pp)` → second person plural
+- `(3pp)` → third person plural
+- `(num_plu)` → plural form
+- `{gen_fem}` → feminine gender
+- `{gen_masc}` → masculine gender
+
+### Example in English
+
+In English, the same logic applies, but repeated forms do not need unnecessary keys.
+
+Example:
+
+`["!🙂","is (am) (are)","(1ps) (2ps) (1pp) (2pp) (3pp) @Poli"],`
+
+This means:
+
+- `is` → default form
+- `(am)` → first person singular → `(1ps)`
+- `(are)` → second person singular → `(2ps)`
+- `(are)` → first person plural → `(1pp)`
+- `(are)` → second person plural → `(2pp)`
+- `(are)` → third person plural → `(3pp)`
+
+English usually uses fewer conjugation forms than Portuguese.
+
+For that reason, only the forms that are really needed should be included.
+
+A simple example is:
+
+`["!🙂","is (are)","(num_plu) @Poli"],`
+
+This means:
+
+- `is` → singular form
+- `(are)` → plural form → `(num_plu)`
+
+So, if a language does not use a certain distinction, that key should simply be omitted.
 ---
 
 ## 💻 Technical Support
 
-Core functions are in:
-liu.py
+The project can also be supported through programming and software architecture.
 
+The main file `liu.py` contains core functions such as:
 
-Main functions:
+- `converte_LIU_TXT(...)` → converts LIU into text
+- `converte_TXT_LIU(...)` → converts text into LIU
 
-- `converte_LIU_TXT(...)`
-- `converte_TXT_LIU(...)`
+There is also interest in support for porting LIU to other languages and platforms,
+for example:
 
-Future goals:
-
-- Port to C
-- Port to JavaScript
-- Expand to more platforms
+- C
+- Java
+- JavaScript
+- other languages and systems
 
 ---
+
+## 📜 License
+
+The use of this code in **non-commercial applications** is free.
+
+For **commercial use**, the ideal is to contact us in order to discuss
+**licensing of this software technology**.
+
+---
+
+## 📬 Contact
+
+Anyone with questions about LIU, or who wants to collaborate or propose a partnership, may contact:
+
+**Policarpo Yoshin Ulianov**  
+poli@liu7777.org
 
 ## 💰 Donations
 
