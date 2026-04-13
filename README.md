@@ -5,19 +5,82 @@ with its own structured grammar.
 
 Developed by **Policarpo Yoshin Ulianov**, with technical support from **ChatGPT-5**.
 
+A live LIU converter app is currently available at:
+
+**www.liu777.org**
+
+At present, the app can convert **text in Portuguese and English into LIU**,
+and also convert **LIU back into Portuguese and English text**.
+
+In the future, LIU is planned to support **9 languages**:
+
+- Portuguese
+- English
+- French
+- Spanish
+- Italian
+- German
+- Russian
+- Japanese
+- Chinese
+
 ---
-
 ## 📑 Index
-
+- [Vision](#-vision)
 - [About LIU](#about-liu)
 - [How LIU Works](#how-liu-works)
 - [Core Concepts](#core-concepts)
-- [Examples](#examples)
-- [How to Contribute](#how-to-contribute)
-- [Technical Support](#technical-support)
-- [Donations](#donations)
-- [License](#license)
-- [Contact](#contact)
+- [How to Improve the LIU Language Databases](#-how-to-improve-the-liu-language-databases)
+- [Technical Support](#-technical-support)
+- [License](#-license)
+- [Contact](#-contact)
+- [Donations](#-donations)
+- [Corporate Sponsorship](#-corporate-sponsorship)
+
+---
+
+## 🌍 Vision
+
+Throughout history, humans have developed different forms of symbolic communication.
+
+Ancient civilizations such as the Egyptians used pictographic writing systems,
+like hieroglyphs, where images represented objects, ideas, and concepts.
+
+In the modern world, languages such as Chinese and Japanese still use
+symbol-based writing systems, although in a more abstract and stylized form.
+
+There have also been attempts to create universal languages, such as Esperanto,
+designed to facilitate communication between people from different linguistic backgrounds.
+
+More recently, emojis have emerged as a global phenomenon.
+They are widely used across digital platforms and cultures, but their use is still
+mostly limited to replacing individual words or expressing simple emotions.
+
+Within this context, LIU introduces a new approach.
+
+LIU is inspired by the pictographic principle of ancient systems like hieroglyphs,
+but is built using modern emojis and a structured grammatical framework.
+Instead of being limited to isolated symbols, LIU allows the construction of
+complex meanings through combinations, modifiers, and logical operators.
+
+Thus, LIU combines:
+
+- the visual intuition of pictographic systems  
+- the flexibility of modern digital symbols  
+- and the expressive power of structured grammar  
+
+This gives LIU the potential to evolve into a universal symbolic language.
+
+Thus, LIU has the potential to facilitate communication between people of different languages.
+
+In addition, LIU may be useful in:
+
+- initial adult literacy
+- children's learning
+- intuitive teaching of verbs, adjectives, and nouns
+- multilingual signage
+- playful use by children and young people
+- philosophical reflection on the meaning of words
 
 ---
 
@@ -476,24 +539,6 @@ Companies can support LIU with:
 
 ---
 
-## 📜 License
-
-- Free for **non-commercial use**
-- Contact required for **commercial use**
-
----
-
-## 📬 Contact
-
-**Policarpo Yoshin Ulianov**  
-poli@liu7777.org
-
----
-
-## 🌍 Vision
-
-LIU aims to become a **universal symbolic language**,
-helping communication across cultures and languages.
 
 
 
